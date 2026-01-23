@@ -1,8 +1,7 @@
 
 import './App.css'
-import SearchBar from './components/Molecules/SearchBar'
-
 import Header from './components/Organisam/Header'
+import Footer from './components/Organisam/Footer'
 
 function App() {
   
@@ -12,6 +11,8 @@ function App() {
       <div className='app-container'>
       <Header/>
 
+
+      <Footer/>
      </div>
     </>
   )

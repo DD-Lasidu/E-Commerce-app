@@ -4,15 +4,17 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 
 const SearchBar = () => {
-    <Form className="d-flex flex-grow mx3">
+    return(
+        <Form className="d-flex flex-grow mx3">
             <InputGroup>
                 <Form.Control type ='search' placeholder="search Products"/>
-                <button variant = 'outline-primary'>
+                <Button variant = 'outline-primary'>
                     <i className='bi bi-search'></i>
-                </button>
+                </Button>
             
             </InputGroup>
     </Form>
+    );
 } ;
 
 export default SearchBar;

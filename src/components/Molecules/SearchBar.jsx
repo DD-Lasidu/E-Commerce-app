@@ -5,11 +5,11 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const SearchBar = () => {
     return(
-        <Form className="d-flex flex-grow mx3">
+        <Form className="d-flex flex-grow-1 mx3">
             <InputGroup>
                 <Form.Control type ='search' placeholder="search Products"/>
                 <Button variant = 'outline-primary'>
-                    <i className='bi bi-search'></i>
+                    <i className="bi bi-search"></i>
                 </Button>
             
             </InputGroup>

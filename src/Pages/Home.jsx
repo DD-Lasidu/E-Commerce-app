@@ -1,6 +1,8 @@
+import HeroSection from "../components/Organisam/HeroSection";
+
 const Home = () => {
     return (
-        <h1>This is Home </h1>
+        <HeroSection/>
     );
 };
 

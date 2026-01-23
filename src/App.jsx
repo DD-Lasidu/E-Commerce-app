@@ -2,6 +2,7 @@
 import './App.css'
 import Header from './components/Organisam/Header'
 import Footer from './components/Organisam/Footer'
+import Home from './Pages/Home'
 
 function App() {
   
@@ -10,8 +11,7 @@ function App() {
     <>
       <div className='app-container'>
       <Header/>
-
-
+      <Home/>
       <Footer/>
      </div>
     </>
